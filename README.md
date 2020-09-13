@@ -1,3 +1,3 @@
 # Project
 Tugas buat web
-https://github.com/bellaisaabel/Project.git
+https://bellaisaabel.github.io/Project/
