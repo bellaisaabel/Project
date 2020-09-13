@@ -1,0 +1,266 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  color:#527a7a;
+}
+span{
+  color: red;
+}
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('kokedama3.jpg');
+  background-size: cover;
+  color:	 #a64dff;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  letter-spacing: 3px;
+  font-size: 17px;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 70px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 2px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color:black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size: 20px;
+  letter-spacing: 3px;;
+}
+
+.header-right a:hover{
+  color: #4d88ff;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+.footer-logo img{
+    width: 120px;
+}
+/* Gantikan float property footer-list */
+.footer-list {
+  float: left;
+  margin-left: 10cm;
+
+}
+
+/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibawah */
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0 0 10px;
+  display: none;
+  display:none;
+}
+
+.container1 {
+  max-width: 1170;;
+  height: 350px;
+  justify-content: center;
+  display: flex; 
+}
+.box-1 {
+  background-color:  #b3ccff; 
+  padding: 
+  10px; 
+  flex: 1;}
+.box-2 {
+  background-color:white; 
+  padding: 10px; 
+  flex: 1;}
+.box-2 h2{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
